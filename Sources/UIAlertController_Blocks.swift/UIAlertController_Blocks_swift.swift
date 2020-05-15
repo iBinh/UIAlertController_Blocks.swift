@@ -37,7 +37,7 @@ public extension UIAlertController {
             controller.addAction(destructiveAction)
         }
         if let otherButtonTitles = otherButtonTitles {
-            for i in 0...otherButtonTitles.count {
+            for i in 0...otherButtonTitles.count - 1 {
                 let otherButtonTitle = otherButtonTitles[i]
                 let otherAction = UIAlertAction(title: otherButtonTitle, style: .default) { (action) in
                     tapBlock(controller, action, UIAlertControllerBlocksFirstOtherButtonIndex + i)
