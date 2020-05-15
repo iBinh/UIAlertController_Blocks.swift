@@ -3,7 +3,7 @@
 ## Installation
 
 ### Cocoapods
-UIAlertController_Blocks.swift is available through [CocoaPods](https://cocoapods.org). To install
+UIAlertController_Blocks.swift is available through [CocoaPods](https://cocoapods.org/pods/UIAlertController_Blocks.swift). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
